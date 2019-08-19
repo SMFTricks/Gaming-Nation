@@ -1,0 +1,15 @@
+﻿This theme is provided by The SMF Tricks Team.
+SMF Tricks is not affiliated with or endorsed by Simple Machines.
+
+
+- You're not allowed to re-distribute this theme modified or not.
+- You can't sell it, or share it through other website.
+- You're not allowed to remove the copyright.
+
+SMF Tricks Team.
+
+Author:		Diego Andrés
+http://www.simplemachines.org/community/index.php?action=profile;u=254071
+
+Remember that:
+- You're free to modify and make any necessary changes to this theme, but you can not remove the copyright.
