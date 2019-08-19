@@ -1,0 +1,603 @@
+.mobile_on
+{
+	visibility: hidden;
+}
+
+@media screen and (min-width: 240px) and (max-width: 640px) {
+	/* Considering something trying to be bad boy and editing body (especially portals! */
+	body {
+		min-width: 240px !important;
+	}
+	
+	/* Calendar Time */
+	#month_grid, #month_grid table,
+	#main_grid
+	{
+		float: none;
+		width: 100%;
+	}
+	#main_grid {
+		margin-left: 0 !important;
+	}
+
+	/* If it has more items, make some margin */
+	#main_menu {
+		margin: -15px 0 0 0;
+	}
+	.dropmenu li {
+		margin: 0 0 5px 0;
+	}
+	/* Do not hover or show them... */
+	.dropmenu li a.active, .dropmenu li a.active:hover,
+	.dropmenu li:hover, .dropmenu li a:hover,
+	.dropmenu li a.firstlevel:hover, #main_menu li:hover,
+	#main_menu .dropmenu li:hover, .dropmenu li:hover a.firstlevel {
+		background: none !important;
+	}
+	.bbc_img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.carousel-caption > h3, .carousel-caption > h3 > a {
+		font-size: 22pt !important;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.carousel-caption > p {
+		font-size: 15pt;
+		font-style: italic;
+	}
+	.poster ul, .poster ul li, .poster button, .poster h4, .poster .dropup
+	{
+		text-align: left !important;
+	}
+	.poster button
+	{
+		margin-left: 10px !important;
+	}
+	.poster .posts_popup
+	{
+		right: none !important;
+		left: 0;
+		margin: 0 !important;
+	}
+	.poster .posts_popup li, .poster .posts_popup li ul
+	{
+		text-align: center !important;
+	}
+	.poster li.stars
+	{
+		display: none;
+	}
+	.date_post
+	{
+		font-size: 10px !important;
+		height: 38px !important;
+		line-height: 18px;
+	}
+	.date_post span
+	{
+		float: none;
+		font-weight: bold;
+		width: 100%;
+	}
+	.date_post div
+	{
+		float: none;
+		width: 100%;
+	}
+	.logodark
+	{
+		padding: 35px 133px !important;
+	}
+	table.table_list tbody.content td.icon, a.unreadlink, table.table_list a.collapse,
+	#index_common_stats
+	{
+		display: none !important;
+	}
+	.poster li.avatar
+	{
+		display: none;
+	}
+	#manage_boards .cat_bar
+	{
+ 		margin-top: 10px;
+	}
+	#manage_boards .windowbg
+	{
+		line-height: 3.2em;
+	}
+	#manage_boards ul
+	{
+		max-height: 120em;
+		padding: 0 0 10px 0;
+	}
+	#manage_boards dd, #manage_boards dt
+	{
+		width: 100%;
+	}
+	#manage_boards dt
+	{
+		line-height: 1.6em;
+	}
+	div.wrapper {
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.nav_bar_inner, .top_bar_inner, .headerm_inner
+	{
+		width: 100%;
+	}
+	.headerm, .headerm_inner
+	{
+		height: auto;
+	}
+	.mobile_on
+	{
+		visibility: visible !important;
+	}
+	.logo_banner
+	{
+		text-align: center;
+		max-width: 640px;
+	}
+	.logo_banner a > img
+	{
+		max-width: 90%;
+	}
+	.quick_search_holder, #search_form
+	{
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+	}
+	.dropmenu li
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.dropmenu li li, .dropmenu li li li
+	{
+		width: 100%;
+		text-align: left;
+	}
+	.dropmenu li ul
+	{
+		width: 80%;
+		margin-left: 15%;
+	}
+	.dropmenu li ul ul, .dropmenu li.sfhover ul ul
+	{
+		margin: 3px 0 0 50px;
+	}
+	#quick_tasks li
+	{
+		height: auto !important;
+		padding: 0;
+		width: 100% !important;
+		float: none !important;
+	}
+	.home_image
+	{
+		clear: both;
+	}
+	.poster li.avatar img
+	{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	#siteslogan, img#smflogo, .contact_info
+	{
+		display: none;
+	}
+	.hidden, .icon, .stats, #posting_icons, #mlist th
+	{
+		display: none;
+	}
+	#statistics .stats
+	{
+		display: block;
+	}
+	#stats_left, #top_posters, #top_topics_replies, #top_topics_starter,
+	#stats_right, #top_boards, #top_topics_views, #most_online,
+	#popularposts, #popularactivity
+	{
+		width: 100%;
+		float: none;
+	}
+	#report_post input {
+		width: 95%;
+		min-height: 50px;
+	}
+	#topic_icons p
+	{
+		display: block;
+		width: 100%;
+	}
+	#menu_toggle
+	{
+		display: none;
+	}
+	h3.catbg #quick_search form
+	{
+		margin: 0 0 8px 0;
+		padding: 0;
+	}
+	h3.catbg #quick_search form input
+	{
+		margin: 0 0 12px 0;
+	}
+	h3.catbg #quick_search form select option
+	{
+		padding: 4px;
+	}
+	h3.catbg #quick_search form .button_submit
+	{
+		margin: 0 3px;
+	}
+	#credits_page
+	{
+		padding-top: 35px;
+	}
+	.features_image
+	{
+		display: none;
+	}
+	.features_switch
+	{
+		margin: -20px 0 0 5px !important;
+	}
+	.features h4
+	{
+		margin: -10px 0 0 0 !important;
+		padding: 0 0 10px 0;
+	}
+	.features p
+	{
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+		max-height: 5.2em;
+		overflow: auto;
+	}
+	.mark_read .buttonlist
+	{
+		float: none;
+		margin: 0 auto;
+	}
+	.mark_read .buttonlist li
+	{
+		width: auto;
+	}
+	#advanced_search
+	{
+		text-align: left !important;
+	}
+	em.smalltext
+	{
+		display: none;
+	}
+	#advanced_search dt, #advanced_search dd
+	{
+		width: 100%;
+		float: none;
+		text-align: left;
+	}
+	.login dt, .login dd
+	{
+		float: none;
+		text-align: left;
+		width: 90%;
+	}
+	input.enhanced
+	{
+		display: block;
+	}
+	.enhanced select
+	{
+		display: block;
+	}
+	#advanced_search dl#search_options
+	{
+		width: 100%;
+	}
+	#searchform .input_text
+	{
+		width: 75%;
+	}
+	.ignoreboards
+	{
+		width: 100% !important;
+		float: none !important;
+	}
+	#searchBoardsExpand
+	{
+		overflow: hidden;
+	}
+	/* Since you asked nicely */
+	#main_menu .dropmenu li {
+		width: auto !important;
+	}
+	#main_menu .dropmenu span.firstlevel {
+		display: none;
+	}
+	#main_menu .dropmenu li:hover ul {
+		display: none;
+	}
+	.poster li.avatar
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-inverse .navbar-collapse {
+	  border-color: #999;
+	  background-color: #f9f9f9 !important;
+	}
+	.navbar-inverse .navbar-nav > li.notice > a span {
+		display: inline-block !important;
+	}
+	.hidden, .icon, .stats, td.icon1, td.icon2
+	{
+		display: none;
+	}
+	.styleswitcher
+	{
+		float: none !important;
+		margin: -45px auto 0 !important;
+		text-align: center;
+	}
+	.styleswitcher a
+	{
+		float: none !important;
+		padding: 0 2px;
+		border
+	}
+	#quicknav, #quicknav ul
+	{
+		float: none !important;
+		clear: both;
+		text-align: center;
+		margin: 0 auto !important;
+	}
+	#quicknav ul li
+	{
+		float: none !important;
+		display: inline-block;
+	}
+	#header
+	{
+		height: auto !important;
+		padding: 10px 0 20px !important; 
+	}
+	h1.forumtitle
+	{
+		float: none !important;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.dropdown-submenu > .dropdown-menu
+	{
+		left: 0 !important;
+		top: 122% !important;
+		z-index: 10000;
+	}
+	.msearch_details
+	{
+		float: none !important;
+		width: 100% !important;
+	}
+	#admin_menu > .nav-pills > li, #adm_submenus > .nav-pills > li
+	{
+		float: none !important;
+		width: 100%;
+		margin: 0 0 10px !important;
+	}
+	#admin_menu > .nav-pills li > ul, #adm_submenus > .nav-pills li > ul
+	{
+		width: 100% !important;
+	}
+	#admin_menu > .nav-pills li ul > li, #admin_menu > .nav-pills li ul > li a,
+	#adm_submenus > .nav-pills li ul > li, #adm_submenus > .nav-pills li ul > li a
+	{
+		height: auto !important;
+		width: 100%;
+		white-space: normal !important;
+	}
+	#adm_submenus
+	{
+		padding-left: 0 !important;
+	}
+	.poster .posts_popup
+	{
+		margin-bottom: 15px !important;
+	}
+	.keyinfo
+	{
+		border-radius: 2px;
+		background-color: rgba(100,100,100,0.1) !important;
+		padding: 3px 2px;
+		height: 30px;
+		box-sizing: border-box;
+		float: none !important;
+		width: 100% !important;
+	}
+	.keyinfo h5
+	{
+		margin-top: 5px;
+	}
+	.posts_popup
+	{
+		right: 0 !important;
+		left: 0 !important;
+		position: absolute;
+		margin: 0 auto !important;
+		float: none !important;
+		width: 220px;
+	}
+	.back-to-top
+	{
+		position: fixed !important;
+		right: 3px;
+		bottom: 10px !important;
+		height: 30px;
+	}
+	.search_bar
+	{
+		width: 100% !important;
+	}
+	.wrapper, div.wrapper
+	{
+		width: 100% !important;
+		min-width: 240px !important;
+		max-width: 720px !important;
+	}
+	div#upper_section div.user
+	{
+		text-align: center;
+		float: none !important;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	div#upper_section div.user p, div#upper_section div.user p > .avatar
+	{
+		max-width: 100px;
+		max-height: 100px;
+		float:  none !important;
+		margin: 0 auto;
+		text-align: center !important;
+	}
+	#upper_section div.news
+	{
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+	table.table_list tbody.content td.stats, .lastpost
+	{
+		display: none;
+	}
+	img.icon 
+	{
+		display: inline-block;
+	}
+	#basicinfo, #detailedinfo, .modblock_left, .modblock_right, #live_news, #supportVersionsTable
+	{
+		width: 100% !important;
+		float: none;
+		margin: 0 0 3px;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+	.postarea, .moderatorbar
+	{
+		width: 100%;
+		margin: 0;
+	}
+	.poster
+	{
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.poster li.avatar
+	{
+		border: none;
+	}
+	.poster li.avatar img
+	{
+		width: 50px !important;
+		height: 50px !important;
+	}
+	.poster button
+	{
+		margin: -15px 0 5px;
+	}
+	.poster h4
+	{
+		margin: 0 0 0 1em !important;
+	}
+	.poster li
+	{
+		margin: 0 0 1px !important;
+	}
+	.poster li.blurb,
+	li.title, li.postgroup, li.karma,
+	li.karma_allow, li.gender, li.custom
+	{
+		display: none;
+	}
+	.login
+	{
+		width: auto !important;
+	}
+	dl
+	{
+		overflow: hidden !important;
+	}
+	dd, dt
+	{
+		float: none !important;
+		width: 100% !important;
+		overflow: hidden;
+		text-align: left !important;
+	}
+	.inner
+	{
+		padding: 1em .5em 2px .5em;
+		margin: 0;
+	}
+	.signature, .attachments
+	{
+		width: 100%;
+		margin: 1em 0 0;
+		padding: 1em 1em 3px;
+		box-sizing: border-box;
+	}
+	.buttonlist ul li
+	{
+		margin: 2px 0;
+	}
+	.buttonlist ul li a span
+	{
+		height: auto;
+	}
+	#quick_tasks li
+	{
+		height: 5em !important;
+		padding: 0;
+	}
+	#main_admsection #basicinfo h4
+	{
+		width: 100% !important;
+	}
+	#left_admsection
+	{
+		margin: 0 0 8px;
+		padding: 0 0 5px;
+		border-bottom: 3px solid #dbe4ef;
+		float: none;
+		width: 100%;
+	}
+
+	/* some dirty fix for SP :)*/
+	#sp_left, #sp_right, #sp_center
+	{
+		width: 100%;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+	table.table_list tbody.content td.lastpost, .topic_table table tbody tr td.lastpost
+	{
+		width: 35% !important;
+	}
+}
