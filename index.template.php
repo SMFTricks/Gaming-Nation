@@ -138,7 +138,7 @@ function template_html_above()
 
 	// Here comes the JavaScript bits!
 	echo '
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
 	<script type="text/javascript" src="', $settings['theme_url'], '/scripts/bootstrap.min.js?fin20"></script>
 	<script type="text/javascript" src="', $settings['default_theme_url'], '/scripts/script.js?fin20"></script>
 	<script type="text/javascript" src="', $settings['theme_url'], '/scripts/theme.js?fin20"></script>
