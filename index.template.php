@@ -523,26 +523,26 @@ function template_body_below()
 
 				if(!empty($settings['st_facebook_username']))
 					echo '
-						<li><a class="social_icon facebook" href="https://facebook.com/', $settings['st_facebook_username'] , '" target="_blank"><span class="fa fa-facebook"></span></a></li>';
+						<li><a class="social_icon facebook" href="https://facebook.com/', $settings['st_facebook_username'] , '" target="_blank" rel="noopener"><span class="fa fa-facebook"></span></a></li>';
 
 				if(!empty($settings['st_twitter_username']))
 					echo '
-						<li><a class="social_icon twitter" href="https://twitter.com/', $settings['st_twitter_username'] , '" target="_blank"><span class="fa fa-twitter"></span></a></li>';
+						<li><a class="social_icon twitter" href="https://twitter.com/', $settings['st_twitter_username'] , '" target="_blank" rel="noopener"><span class="fa fa-twitter"></span></a></li>';
 
 				if(!empty($settings['st_youtube_username']))
 					echo '
-						<li><a class="social_icon youtube" href="https://youtube.com/user/', $settings['st_youtube_username'] , '" target="_blank"><span class="fa fa-youtube"></span></a></li>';
+						<li><a class="social_icon youtube" href="https://youtube.com/user/', $settings['st_youtube_username'] , '" target="_blank" rel="noopener"><span class="fa fa-youtube"></span></a></li>';
 
 				if(!empty($settings['st_instagram_username']))
 					echo '
-						<li><a class="social_icon instagram" href="https://instagram.com/', $settings['st_instagram_username'] , '" target="_blank"><span class="fa fa-instagram"></span></a></li>';
+						<li><a class="social_icon instagram" href="https://instagram.com/', $settings['st_instagram_username'] , '" target="_blank" rel="noopener"><span class="fa fa-instagram"></span></a></li>';
 
 				if(!empty($settings['st_gplus_username']))
 					echo '
-						<li><a class="social_icon gplus" href="https://plus.google.com/u/0/', $settings['st_gplus_username'] , '" target="_blank"><span class="fa fa-google-plus"></span></a></li>';
+						<li><a class="social_icon gplus" href="https://plus.google.com/u/0/', $settings['st_gplus_username'] , '" target="_blank" rel="noopener"><span class="fa fa-google-plus"></span></a></li>';
 
 						echo '
-						<li><a class="social_icon rss" href="', empty($settings['st_rss_url']) ? '' . $scripturl . '?action=.xml;type=rss' : '' . $settings['st_rss_url'] . '', '" target="_blank"><span class="fa fa-rss"></span></a></li>
+						<li><a class="social_icon rss" href="', empty($settings['st_rss_url']) ? '' . $scripturl . '?action=.xml;type=rss' : '' . $settings['st_rss_url'] . '', '" target="_blank" rel="noopener"><span class="fa fa-rss"></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -622,7 +622,7 @@ function theme_linktree($force_show = false)
 
 // Theme copyright, please DO NOT REMOVE THIS!!
 function GN_copy() {
-	$GN = 'Theme by <a href="http://smftricks.com" target="_blank">SMF Tricks</a>';
+	$GN = 'Theme by <a href="https://smftricks.com" target="_blank" rel="noopener">SMF Tricks</a>';
 
 	return $GN;
 }
