@@ -36,7 +36,7 @@
 */
 
 /*	This theme is a work of SMF Tricks Team. For more information please visit
-	http://www.smftricks.com/
+	https://www.smftricks.com/
 	This theme was developed by Diego Andrés and its a Free Theme.
 	Theme designed by Raphisio
 	Visit SMF Tricks for more Free Themes and Premium Themes.
