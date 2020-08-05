@@ -423,7 +423,7 @@
 		border-radius: 2px;
 		background-color: rgba(100,100,100,0.1) !important;
 		padding: 3px 2px;
-		height: 30px;
+		min-height: 30px;
 		box-sizing: border-box;
 		float: none !important;
 		width: 100% !important;
