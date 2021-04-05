@@ -15,9 +15,12 @@ $txt['st_facebook_username'] = 'Facebook username';
 $txt['st_twitter_username'] = 'Twitter username';
 $txt['st_youtube_username'] = 'Youtube username';
 $txt['st_instagram_username'] = 'Instagram username';
-$txt['st_gplus_username'] = 'Google Plus username';
+$txt['st_discord_link'] = 'Discord link';
+$txt['st_discord'] = 'Discord';
 $txt['st_rss_url'] = 'RSS URL';
 $txt['st_social_desc'] = 'Write the username or the id to show the button';
+$txt['st_rss_url_desc'] = 'The default forum URL is: <i>'.$scripturl. '?action=.xml;type=rss</i>';
+
 
 $txt['st_enable_avatars'] = 'Enable the avatars';
 $txt['st_enable_avatars_boards'] = 'Enable avatar on board';

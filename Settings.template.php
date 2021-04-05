@@ -310,8 +310,8 @@ function template_settings()
 		),
 		array(
 			'id' => 'st_discord_link',
-			'label' => $txt['st_discord_link'],
-			'description' => $txt['st_social_desc'],
+			'label' => $txt['st_discord'],
+			'description' => $txt['st_discord_link'],
 			'type' => 'text',
 		),
 		array(
