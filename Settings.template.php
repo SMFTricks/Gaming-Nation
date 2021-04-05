@@ -309,9 +309,15 @@ function template_settings()
 			'type' => 'text',
 		),
 		array(
-			'id' => 'st_gplus_username',
-			'label' => $txt['st_gplus_username'],
+			'id' => 'st_discord_link',
+			'label' => $txt['st_discord_link'],
 			'description' => $txt['st_social_desc'],
+			'type' => 'text',
+		),
+		array(
+			'id' => 'st_rss_url',
+			'label' => $txt['st_rss_url'],
+			'description' => $txt['st_rss_url_desc'],
 			'type' => 'text',
 		),
 	'',

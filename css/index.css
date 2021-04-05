@@ -3644,13 +3644,12 @@ a#back-to-top {
 	list-style: none;
 	display: inline-block !important;
 	text-align: right;
-	float: right;
 }
 #quicknav li + li, #quicknav li:first-child{
 	margin-left: 3px;
 }
 #quicknav .social_icon {
-	display: block;
+	display: block !important;
 	height: 30px;
 	width: 30px;
 	padding: 0;
