@@ -2,7 +2,7 @@
     <img src="https://smftricks.com/logos/logo.png">
  </p>
   <p align="center">
-    <img src="https://custom.simplemachines.org/themes/index.php?action=download;lemma=2847;id=17737;image">
+    <img src="https://custom.simplemachines.org/index.php?action=download;theme=2847;attach=248674;image">
  </p>
  
  ## Gaming Nation
