@@ -123,7 +123,7 @@ function template_html_above()
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/bootstrap.min.css?fin20" />
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/responsive.css" />
-	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/fontawesome.min.css?fin20" />';
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />';
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
 	foreach (array('ie7', 'ie6', 'webkit') as $cssfix)
